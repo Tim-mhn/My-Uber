@@ -1,0 +1,20 @@
+Scenario 1: Initialisation of system + displaying prices. Possibility to add wrong inputs.
+
+In order to access the CLUI, you must open the myUber package, then open myUberCLUI class and run it.
+
+Initialisation with 5 Standard Cars, 2 Berlines, 3 Vans, 5 Customers
+User can try to enter something else than an integer. This exception is handled by the CLUI.
+Beware with coordinates. The system can only handle commas.
+
+>Setup
+>cecaec [wrong input]
+>5
+>2
+>3
+>5
+>ask4price
+>Customer ID: 7 [wrong input]
+>4
+>Longitude: 10,5
+>Latitude: 10,4
+>end

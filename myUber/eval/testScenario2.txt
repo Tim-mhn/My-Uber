@@ -1,0 +1,31 @@
+Scenario 2: Initialisation of system + Booking of a UberVan Ride with no Van avaialble + Booking an UberX Ride
+
+In order to access the CLUI, you must open the myUber package, then open myUberCLUI class and run it.
+
+Initialisation with 5 Standard Cars, 2 Berlines, 0 Vans, 1 Customer
+User can try to enter something else than an integer. This exception is handled by the CLUI.
+Beware with coordinates. The system can only coordinates with handle commas.
+
+>Setup
+>5
+>0
+>2
+>1
+>simRide_i
+>1
+>Longitude: 10,6
+>Latitude: 10,3
+>How many are you: 4
+>Option: 3 ("no driver available")
+>simRide_i
+>1
+>Longitude: 10,6
+>Latitude: 10,3
+>How many are you: 4
+>Option: 1
+>DriverMark: 8 [wrong input]
+>DriverMark: 3
+>Ride: 4
+>displayCustomers
+>most_charged
+

@@ -1,0 +1,28 @@
+TestScenario4: Setup + Displaying prices + Booking with the GUI.
+
+To access the GUI, open the myUber package, then open myUberGUI class and run it.
+
+> Enter 5 Standard cars, 4 Berline Cars, 2 Vans, 4 Customers
+> Click on "Setup"
+> Click on "Ask for price"
+
+> Choose a customer
+> Longitude: 10,5
+> Latitude: 10,8
+> Click on "Ask for price"
+
+> Click on "Delete Customer"
+> Choose a customer
+> Click on "Delete customer"
+
+
+> Click on "Simulate Ride"
+> Choose a customer
+> Choose "UberBlack"
+> Choose 1-3 passengers
+> Longitude: 10,5
+> Latitude: 10,4
+> Choose a driver mark and ride mark
+> Click on "Simulate ride"
+
+> Click on "Display State"
