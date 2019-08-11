@@ -4,7 +4,7 @@ Uber-inspired java app with a CLUI and a GUI.
 
 As a user of this app, you can create users (customers + drivers) and cars, move the latter, ask for the price of rides depending on the type of ride, book ride and simulate the moving of users.
 
-Go to MyCLUI or MyGUI class and run the main method.
+Go to MyUberCLUI or MyUberGUI class in the myUber package and run the main method.
 
 Commands for the CLUI are the following:
 - setup > initializes the system with drivers, customers and cars ;
@@ -20,3 +20,5 @@ Commands for the CLUI are the following:
 - simRide_i > simulates the entire book a ride process  ;
 - simRide > same as the previous one except that the ride type is entered before knowing the price ;
 - exit > exit the system.
+
+For the GUI, run the main method and the GUI will open up.
