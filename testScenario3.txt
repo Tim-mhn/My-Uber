@@ -1,0 +1,34 @@
+Scenario 3: Initialisation of system + Booking of an UberPool + Display Stats
+
+In order to access the CLUI, you must open the myUber package, then open myUberCLUI class and run it.
+
+Initialisation with 3 Standard Cars, 2 Berlines, 0 Vans, 4 Customer
+User can try to enter something else than an integer. This exception is handled by the CLUI.
+Beware with coordinates. The system can only coordinates with handle commas.
+
+>Setup
+>5
+>0
+>2
+>4
+>simRide_i
+>1
+>Longitude: 10,6
+>Latitude: 10,3
+>How many are you: 2
+>Option: 2 ("no driver available")
+>simRide_i
+>2
+>Longitude: 10,8
+>Latitude: 10,2
+>How many are you: 1
+>Option: 2
+>DriverMark: 4 [Customer 1 entry]
+>DriverMark: 3 [Customer 2 entry]
+>RideMark: 3
+>RideMark: 4
+>displayCustomers
+>most_charged
+>displayState
+>end
+
